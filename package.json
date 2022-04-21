@@ -1,0 +1,19 @@
+{
+  "name": "speechtoemotion",
+  "version": "1.0.0",
+  "description": "We speak and it feels us!",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "server-debug": "nodemon --inspect server.js"
+  },
+  "author": "anmol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
